@@ -1,5 +1,4 @@
-
-##Functional requirements/User journeys:
+## Functional requirements/User journeys:
 
 **User profile journey**
 1. The user should be able to register with the system
@@ -22,7 +21,7 @@
 1. The logged-in user should able to see the booking history
 2. The logged-in user should able to cancel any forth coming booking
 
-##Non-functional requirement:
+## Non-functional requirement:
 
 **1. Security -**
 The system uses SSL (secured socket layer) in all transactions that include any confidential customer information.
