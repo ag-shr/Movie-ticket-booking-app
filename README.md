@@ -8,14 +8,18 @@
 5. The logged-in user should able to edit profile details
 6. The logged-in user should able to logout from the system
 
-**Ticket booking journey**
-1. The user should be able to view the list of movies which are running near to his location.
-2. The user should able to select any of the listed movie for booking tickets
-3. The user should be shown the list of cinema halls running the selected movie and should able to select the cinema hall of his/her choice
-4. The user should be able to select the seat as per his choice in the hall.
-5. The user should have different options for payment.
-6. To complete the payment process user should be asked to login. If user is not registered, user should be allowed to register and then complete the payment process
-7. Once the payment is completed, the user should be shown ticket details and a copy of ticket should be sent to user’s registered email id.
+**Admin Profile User Journey**
+1.	Admin should be able to add, remove city in the application
+2.	Admin should be able to add, remove theaters in any particular city
+3.	Admin should be able to add, remove movie playing in a particular theater
+
+**User Ticket booking journey**
+1.	User should be able to select the city. On city selection, all the theaters should be displayed
+2.	User should be able to select the theater. On theater selection, list of all the movies shows should be shown
+3. User should be able to select a movie in a theater. On movie selection, list of all screens should be shown
+4. On selecting the screen, The user should be able to select the seat as per his choice in the hall
+5. To complete the payment process user should be logged-in
+6. Once the payment is completed, the user should be shown ticket details and a copy of ticket should be sent to userâ€™s registered email id
 
 **Booking history journey**
 1. The logged-in user should able to see the booking history
@@ -29,14 +33,14 @@
    include any confidential customer information.
  - The system must automatically log out all customers after a period of
    inactivity.
- - The system should not leave any cookies on the customer’s computer
-   containing the user’s password.
- - The system’s back-end servers shall only be accessible to
+ - The system should not leave any cookies on the customerâ€™s computer
+   containing the userâ€™s password.
+ - The systemâ€™s back-end servers shall only be accessible to
    authenticated administrators.
  - Sensitive data will be encrypted before being sent over insecure
    connections like the internet.
 
-**2. Resilience –**
+**2. Resilience â€“**
 
  - The system must be fault tolerant where it recovers current session
    data as well as persistent data in case of any failure.
