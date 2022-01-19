@@ -1,0 +1,6 @@
+cityName,theaterName,movieName,actorA,actorB,actorC,movieRating
+Mumbai,Theater 1,Movie 1,Actor A,Actor B,Actor C,5.6
+Delhi,Theater 1,Movie 1,Actor A,ACtor B,Actor C,5.6
+Mumbai,Theater 1,Movie 2,Actor C,Actor D,Actor E,7.85
+Delhi,Theater 2,Movie 2,Actor C,Actor D,Actor E,7.85
+Delhi,Theater 2,Movie 3,Actor A,Actor D,Actor F,3.5
